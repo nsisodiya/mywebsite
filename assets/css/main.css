@@ -854,6 +854,10 @@
 
 	@media screen and (max-width: 736px) {
 
+		.myimage {
+			width: 100px !important;
+		}
+
 		/* Basic */
 
 			body {
