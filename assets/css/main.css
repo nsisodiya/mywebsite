@@ -327,6 +327,7 @@
 /* Main */
 
 	#main {
+		overflow: scroll;
 		height: 100%;
 		left: 0;
 		position: fixed;
@@ -1042,6 +1043,12 @@
 
 
 #header .subtext {
-	font-size: 26px;
+	font-size: 22px;
 	opacity: 1;
+}
+
+.myimage {
+	border-radius: 50%;
+	width: 206px;
+	margin-top: 35px;
 }
