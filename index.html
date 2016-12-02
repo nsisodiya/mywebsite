@@ -1,23 +1,52 @@
----
-layout: default
----
+<!DOCTYPE HTML>
+<!--
+	Aerial by HTML5 UP
+	html5up.net | @ajlkn
+	Free for personal and commercial use under the CCA 3.0 license (html5up.net/license)
+-->
+<html>
+	<head>
+		<title>Narendra Sisodiya</title>
+		<meta charset="utf-8" />
+		<meta name="viewport" content="width=device-width, initial-scale=1" />
+		<!--[if lte IE 8]><script src="assets/js/ie/html5shiv.js"></script><![endif]-->
+		<link rel="stylesheet" href="assets/css/main.css" />
+		<!--[if lte IE 8]><link rel="stylesheet" href="assets/css/ie8.css" /><![endif]-->
+		<!--[if lte IE 9]><link rel="stylesheet" href="assets/css/ie9.css" /><![endif]-->
+	</head>
+	<body class="loading1" style="background: #1f1d1d">
+		<div id="wrapper">
+			<div id="bg1"></div>
+			<div id="overlay"></div>
+			<div id="main">
 
-<div class="home">
+				<!-- Header -->
+					<header id="header">
+						<h1>Narendra Sisodiya</h1>
+						<div class="subtext">
+							<p>Startup Guy. Love Innovation and Technology</p>
+							<p>IIT delhi alumni. 8+ Year of Experience</p>
+							<p>5+ years in B2B SaaS web application</p>
+							<p>Love JavaScript, Node.js, React.js</p>
+							<p>Love Open Source</p>
+						</div>
+						<nav>
+							<ul>
+								<li><a href="http://twitter.com/nsisodiya" target="_blank" class="darkCircle icon fa-twitter"><span class="label">Twitter</span></a></li>
+								<li><a href="http://github.com/nsisodiya" target="_blank" class="darkCircle icon fa-github"><span class="label">Github</span></a></li>
+								<li><a href="http://linkedin.com/in/narendra-sisodiya" target="_blank" class="darkCircle icon fa-linkedin"><span class="label">Github</span></a></li>
+								<li><a href="http://medium.com/nsisodiya" target="_blank" class="darkCircle icon fa-medium"><span class="label">Medium</span></a></li>
+							</ul>
+						</nav>
+					</header>
 
-  <h1 class="page-heading">Posts</h1>
-
-  <ul class="post-list">
-    {% for post in site.posts %}
-      <li>
-        <span class="post-meta">{{ post.date | date: "%b %-d, %Y" }}</span>
-
-        <h2>
-          <a class="post-link" href="{{ post.url | prepend: site.baseurl }}">{{ post.title }}</a>
-        </h2>
-      </li>
-    {% endfor %}
-  </ul>
-
-  <p class="rss-subscribe">subscribe <a href="{{ "/feed.xml" | prepend: site.baseurl }}">via RSS</a></p>
-
-</div>
+			</div>
+		</div>
+		<!--[if lte IE 8]><script src="assets/js/ie/respond.min.js"></script><![endif]-->
+		<script>
+			window.onload = function() { document.body.className = ''; }
+			window.ontouchmove = function() { return false; }
+			window.onorientationchange = function() { document.body.scrollTop = 0; }
+		</script>
+	</body>
+</html>
